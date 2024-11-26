@@ -36,6 +36,7 @@ import TheoryReasonCardItem from './features/TheoryReasonCardItem.astro';
               title="提升生理指标"
               image="/images/reason-1.png"
               description="研究发现，对于哮喘、类风湿关节炎、肠应激等和免疫系统有关的身体疾病，表达性书写能缓解症状，对降血压也有奇效。"
+              color="F5FAFC"
             />
           </div>
           <div class="lg:col-6 col-12">
@@ -43,6 +44,7 @@ import TheoryReasonCardItem from './features/TheoryReasonCardItem.astro';
               title="提升心理指标"
               image="/images/reason-2.png"
               description="实验发现，表达性书写可缩短失眠者的入睡时间，提高学习能力，增强工作记忆，尤其在书写消极体验时效果更明显。"
+              color="F5FAFC"
             />
           </div>
         </div>
@@ -53,7 +55,9 @@ import TheoryReasonCardItem from './features/TheoryReasonCardItem.astro';
       <div class="container">
         <div class="items-center justify-center">
           <div class="lg:col-12 text-center">
-            <h2 class="banner-title flex flex-col sm:flex-row sm:justify-center sm:items-center">
+            <h2
+              class="banner-title flex flex-col sm:flex-row sm:justify-center sm:items-center"
+            >
               <span>了不起的理论<span class="hidden sm:inline">，</span></span>
               <span>全用来关爱你</span>
             </h2>
@@ -71,6 +75,48 @@ import TheoryReasonCardItem from './features/TheoryReasonCardItem.astro';
             width={176}
             height={56}
           />
+        </div>
+      </div>
+    </section>
+
+    <section class="section banner relative">
+      <div class="container">
+        <div class="items-center justify-center">
+          <div class="lg:col-12 text-center">
+            <h2
+              class="banner-title flex flex-col sm:flex-row sm:justify-center sm:items-center"
+            >
+              <span>坚不可摧的加密<span class="hidden sm:inline">，</span></span
+              >
+              <span>只用来保护你</span>
+            </h2>
+          </div>
+
+          <p class="text-center text-gray-500 mt-10">
+            要想舒心，更要保证私密。我们用最前沿的技术为你保驾护航，让你安心书写和疗愈。在这里，尽管表达自己。
+          </p>
+
+          <div class="mt-10 max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto">
+            <div class="row justify-between gap-y-10">
+              <div class="lg:col-6 col-12">
+                <TheoryReasonCardItem
+                  title="端对端双重保护"
+                  image="/images/icon_secret_box.png"
+                  description="端对端加密，享受存储和通信的双重保护。确保只有授权方才能访问内容"
+                  color="F5F5F5"
+                  imageWidth={80}
+                />
+              </div>
+              <div class="lg:col-6 col-12">
+                <TheoryReasonCardItem
+                  title="加密方式坚不可摧"
+                  image="/images/icon_safe_box.png"
+                  description="要破解这种加密，地球上最强大的计算机也要耗费数百万年的时间"
+                  color="F5F5F5"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
