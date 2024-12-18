@@ -12,27 +12,61 @@ const { copyright, location, email, phone, footer_description } = config.params;
 
 <footer class="footer">
   <div class="container max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto">
-    <div
-      class="flex items-start justify-between md:justify-between md:gap-x-[136px] mx-auto"
-    >
+  <div
+    class="flex flex-col md:flex-row items-start md:justify-between md:gap-x-[136px] mx-auto"
+  >
       <Logo />
-      <div class="flex flex-col gap-y-4">
-        <div class="text-xl font-bold">联系我们</div>
-        <div class="text-xl text-gray-500">
-          <p>
-            <a
-              href="https://join.slack.com/t/moflow-community/shared_invite/zt-2u6tni6yf-GEeyXxN5UEJViDnsRq0wfQ"
-              onclick="gtag('event', 'click_btn_slack', { 'event_name': 'click_btn_slack', 'event_category': 'footer', 'event_label': 'slack' });"
-              >Slack</a
-            >
-          </p>
-          <p>
-            <a
-              href="https://www.xiaohongshu.com/user/profile/5cc2d4220000000012014e9c"
-              onclick="gtag('event', 'click_btn_xhs', { 'event_name': 'click_btn_xhs', 'event_category': 'footer', 'event_label': 'xhs' });"
-              >小红书</a
-            >
-          </p>
+      <div class="flex flex-col sm:flex-row gap-y-8 sm:gap-x-16 mt-8 md:mt-0">
+        <div class="flex flex-col gap-y-4">
+          <div class="text-xl font-bold">产品链接</div>
+          <div class="text-xl text-gray-500">
+            <p>
+              <a
+                href="https://blog.ursb.me/posts/moflow/"
+                >项目背景</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://quail.ink/moflow"
+                >MoFlow 通讯</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://airing.notion.site/moflow-changelog?pvs=4"
+                >Changelog</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://apps.apple.com/cn/app/id6737146258"
+                >App Store</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-y-4">
+          <div class="text-xl font-bold">联系我们</div>
+          <div class="text-xl text-gray-500">
+            <p>
+              <a
+                href="https://join.slack.com/t/moflow-community/shared_invite/zt-2u6tni6yf-GEeyXxN5UEJViDnsRq0wfQ"
+                onclick="gtag('event', 'click_btn_slack', { 'event_name': 'click_btn_slack', 'event_category': 'footer', 'event_label': 'slack' });"
+                >Slack</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://www.xiaohongshu.com/user/profile/5cc2d4220000000012014e9c"
+                onclick="gtag('event', 'click_btn_xhs', { 'event_name': 'click_btn_xhs', 'event_category': 'footer', 'event_label': 'xhs' });"
+                >小红书</a
+              >
+            </p>
+            <p>
+              微信公众号: Airing
+            </p>
+          </div>
         </div>
       </div>
     </div>
