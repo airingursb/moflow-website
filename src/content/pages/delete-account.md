@@ -56,4 +56,4 @@ MoFlow 是一款专注于情绪记录与心理疗愈的应用。本页面说明�
 如有任何疑问,请通过以下方式联系:
 
 - 📧 邮箱:[moflowapp@gmail.com](mailto:moflowapp@gmail.com)
-- 🌐 官网:[moflowapp.com](https://moflowapp.com)
+- 🌐 官网:[moflow.ursb.me](https://moflow.ursb.me)
